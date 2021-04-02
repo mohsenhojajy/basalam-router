@@ -1,13 +1,16 @@
 <template>
-  <div class="home">
+  <div class="basket">
     <img alt="Vue logo" src="../assets/logo.png">
+    <Header/>
   </div>
 </template>
 
 <script>
+import Header from '../components/Tab.vue'
 export default {
-  name: 'Home',
+  name: 'Basket',
   components: {
+    Header
   }
 }
 </script>
