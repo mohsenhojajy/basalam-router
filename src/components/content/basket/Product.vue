@@ -21,14 +21,12 @@
             <button class="product__detail-recyclebin"><img src="@/assets/vector/Recyclebin.svg" alt="resycle"></button>
             <span class="product__detail-store"><a href="#">ذخیره در لیست خرید بعدی </a></span>
     </div>
-    <div class="line"></div>  <!-- global class -->
-
+    <div class="line"></div>
+    <!-- global class -->
  </div>
-
 </template>
 
 <style>
-
 .product {
   display: flex;
   width: 92%;
@@ -37,13 +35,11 @@
   margin-top: 15px;
   justify-content: right;
 }
-
 .product__pic {
   border-radius: 10px;
   width: 82px;
   height: 82px;
 }
-
 .product__text {
   font-family: IRANSans;
   font-size: 12px;
@@ -52,7 +48,6 @@
   text-align: right;
   margin-right: 10px;
 }
-
 .product__price {
   align-self: flex-end;
   font-size: 12px;
@@ -64,11 +59,9 @@
   align-items: center;
   color: #535353;
 }
-
 .product__price span {
   margin: 0 2px;
 }
-
 .product__price__box {
   margin-bottom: 10;
   margin: 0 2px;
@@ -84,13 +77,10 @@
   color: #535353;
   font-weight: bold;
 }
-
-
 .product__price-discount {
   color: #9D9D9D;
   text-decoration: line-through #9D9D9D;
 }
-
 .product__detail {
   display: flex;
   flex-direction: row-reverse;
@@ -100,7 +90,6 @@
   margin: 0 auto;
   margin-top: 14px;
 }
-
 .product__detail button {
   background: #EEEEEE;
   border-radius: 100px;
@@ -111,7 +100,6 @@
   justify-content: center;
   margin-left: 4px;
 }
-
 .product__detail-number {
   width: 25.79px;
   Height: 23.36px;
@@ -130,11 +118,9 @@
   text-align: center;
   color: #535353;
 }
-
 .product__detail-recyclebin {
   margin-right: 5%;
 }
-
 .product__detail-store {
   font-family: IRANSans;
   font-style: normal;

@@ -1,26 +1,32 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import About from '../views/About.vue'
+import Buylist from '../views/Buylist.vue'
 import Basket from '../views/Basket.vue'
+import Address from '../views/Address.vue'
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/about',
-    name: 'About',
-    component: About
+    path: '/buylist',
+    name: 'Buylist',
+    component: Buylist
   },
   {
     path: '/basket',
     name: 'Basket',
     component: Basket
+  },
+  {
+    path: '/address',
+    name: 'Address',
+    component: Address
+  },
+  {
+    path: '*',
+    name: 'Basket',
+    redirect: '/basket'
   }
+
 ]
 
 const router = new VueRouter({

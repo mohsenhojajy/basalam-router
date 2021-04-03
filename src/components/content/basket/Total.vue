@@ -1,4 +1,4 @@
-<template>    
+<template>
     <div class="stall__footer">
         <p class="stall__footer__border-text">هورا! ارسال از این غرفه برای شما <span>.رایگان شد</span></p>
         <div class="stall__footer__tiket">
@@ -10,37 +10,27 @@
             <div class="stall__footer__price">
                 <p class="stall__footer__price-kala">جمع مبلغ برای ۲ کالا</p>
                 <div class="stall__footer__price-toman">۷۵,۰۰۰
-                    <span class=" product__price__box">                         
+                    <span class=" product__price__box">
                         <img class="" src="@/assets/vector/toman.svg" alt="toman">
                     </span>
                 </div>
             </div>
         </div>
-      <div class="line"></div>     <!--  global class  -->
+      <div class="line"></div><!--  global class  -->
     </div>
-
 </template>
 
-
 <script>
-
-
-
-
-
 export default {
   name: 'Total',
   components: {
-  
   }
 }
 </script>
 
-
 <style>
-
 .stall__footer{
-margin-top:20px ;
+margin-top:20px;
 /* margin: 20px 0; */
 }
 .stall__footer__border-text {
@@ -61,7 +51,6 @@ margin-top:20px ;
   font-weight: bold;
   margin-right: 2px;
 }
-
 .stall__footer__tiket {
   margin: 15px 25px;
   height: 24px;
@@ -80,7 +69,6 @@ margin-top:20px ;
   text-align: center;
   color: #3E3E3E;
 }
-
 .stall__footer__Down {
   display: flex;
   width: 92%;
@@ -91,7 +79,6 @@ margin-top:20px ;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .stall__footer__Down--buy {
   height: 32px;
   background: #DF3856;
@@ -106,7 +93,6 @@ margin-top:20px ;
   color: #FAFAFA;
   padding: 0 16px;
 }
-
 .stall__footer__price {
   display: flex;
   flex-direction: column;
@@ -120,7 +106,6 @@ margin-top:20px ;
   text-align: right;
   color: #535353;
 }
-
 .stall__footer__price-toman {
   display: flex;
   align-items: flex-end;

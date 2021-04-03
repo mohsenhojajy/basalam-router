@@ -1,7 +1,7 @@
 <template>
      <div class="tab">
         <button class="tab__feature tab-click"><router-link to="/basket">سبدخرید</router-link></button>
-        <button class="tab__feature"><router-link to="/">لسیت خرید بعدی</router-link></button>
+        <button class="tab__feature"><router-link to="/Buylist">لسیت خرید بعدی</router-link></button>
       <router-view/>
      </div>
 </template>

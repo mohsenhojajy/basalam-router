@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>|
-      <router-link to="/basket">Basket</router-link>
+      <!-- <router-link to="/Buylist">Home</router-link> |
+      <router-link to="/basket">Basket</router-link> -->
     </div>
     <router-view/>
   </div>
@@ -11,7 +10,6 @@
 
 <style>
 @import './css/font.css';
-
 #app {
   margin: 0 auto;
   width: 360px;

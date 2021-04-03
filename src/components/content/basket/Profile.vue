@@ -7,13 +7,12 @@
             <span class="stall__profile-location">از سعادت شهر
                 <img class="" src="@/assets/vector/location.svg" alt="profile-location">
             </span>
-        </div> 
+        </div>
     </div>
   </div>
 </template>
 
 <style>
-
 .stall__profile {
   width: 92%;
   height: 40px;

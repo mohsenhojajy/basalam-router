@@ -1,7 +1,7 @@
 <template>
     <div class="content-footer">
             <div class="content__footer__Down">
-                <button class="content__footer__Down--buy b"><a href="basket-address.html">ادامه خرید از دو غرفه</a></button>
+                <button class="content__footer__Down--buy b"><router-link to="/address">ادامه خرید از دو غرفه</router-link></button>
                 <div class="content__footer__price">
                     <p class="content__footer__price-kala">مبلغ قابل پرداخت ۲ غرفه</p>
                     <div class="content__footer__price-toman">۷۵,۰۰۰
@@ -10,12 +10,11 @@
                         </div>
                     </div>
                 </div>
-            </div>   
-    </div>  
+            </div>
+    </div>
 </template>
 
 <style >
-
 .content-footer {
   width: 360px;
   background: #ffffff;

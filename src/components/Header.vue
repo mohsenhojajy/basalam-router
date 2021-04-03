@@ -1,17 +1,17 @@
 <template>
-    <div class="header">
-        <div class="header__top"> 
+      <div class="header">
+        <div class="header__top">
             <div class="header__top-rightbox">
                <img  class="header__top__logo" src="@/assets/vector/logo.svg" alt="logo">
                <img  class="header__top__logotext" src="@/assets/vector/Type.svg" alt="textlogo">
                <button class="header__top__menu">
                    <img class="header__top__menu-size" src="@/assets/vector/menu.svg" alt="menu" >
                </button>
-            </div> 
-            <div class="header__top-leftbox"> 
+            </div>
+            <div class="header__top-leftbox">
                 <button class="header__top__sell">فروش در باسلام </button>
                 <button class="header__top__basket">
-                    <img class="header__top__basket-size" src="@/assets/vector/Basket.svg" alt="basket" >
+                    <img class="header__top__basket-size" src="@/assets/vector/Basket.svg" alt="basket">
                 </button>
                 <span class="header__top__basket-number" id="header-up__left-basket-number">۳</span>
             </div>
@@ -22,11 +22,17 @@
                 <img src="@/assets/vector/search.svg" alt="search">
             </button>
         </form>
-
     </div>
 </template>
+<script>
+export default {
+  name: 'header',
+  components: {
+  }
+}
+</script>
+
 <style>
-/* =========================< header top >========================= */
 .header {
   position: relative;
   display: flex;
@@ -34,20 +40,18 @@
   flex-direction: column;
   width: 360px;
   height: 101px;
-  background: #FFFFFF
-}
-.header__top {
-  display: flex; 
+  background: #FFFFFF;}
+  .header__top {
+  display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
   align-items: center;
   width: 90%;
   height: 32px;
-  margin-top: 6px;
-}
+  margin-top: 6px;}
 .header__top-rightbox {
-display: flex; 
-flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
 }
 .header__top__logo{
   width: 22px;
@@ -70,7 +74,7 @@ flex-direction: row-reverse;
 }
 .header__top-leftbox {
   position: relative;
-display: flex; 
+display: flex;
 flex-direction: row-reverse;
 }
 .header__top__sell{
@@ -121,9 +125,7 @@ flex-direction: row-reverse;
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
 /* =========================< header bottom >========================= */
-
 .header__bottom{
 display: flex;
   flex-direction: row-reverse;

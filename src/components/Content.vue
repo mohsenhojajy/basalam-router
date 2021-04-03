@@ -2,21 +2,16 @@
   <div class="Content">
     <Stall/>
     <Profile/>
-    <Product/>
-    <Total/>
-    
+   <Product/>
+   <Total/>
   </div>
 </template>
 
 <script>
-import Stall from './content/Stall.vue'
-import Profile from './content/Profile.vue'
-import Product from './content/Product.vue'
-import Total from './content/Total.vue'
-
-
-
-
+import Stall from './content/basket/Stall.vue'
+import Profile from './content/basket/Profile.vue'
+import Product from './content/basket/Product.vue'
+import Total from './content/basket/Total.vue'
 export default {
   name: 'Content',
   components: {
@@ -29,8 +24,6 @@ export default {
 </script>
 
 <style>
-
-
 .Content{
 
     width: 100%;
