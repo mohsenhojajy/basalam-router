@@ -1,7 +1,7 @@
 <template>
      <div class="tab">
-        <button class="tab__feature tab-click"><router-link to="/basket">سبدخرید</router-link></button>
-        <button class="tab__feature"><router-link to="/Buylist">لسیت خرید بعدی</router-link></button>
+        <button class="tab__feature" id="onetab" @click="activetab1"><router-link to="/basket">سبدخرید</router-link></button>
+        <button class="tab__feature" id="twotab" @click="activetab2"><router-link to="/Buylist">لسیت خرید بعدی</router-link></button>
       <router-view/>
      </div>
 </template>
@@ -9,6 +9,18 @@
 export default {
   name: 'tab',
   components: {
+  },
+  methods: {
+    activetab1 () {
+      // this.activetab = !this.activetab
+      document.getElementById('onetab').classList = 'tab-click tab__feature'
+      document.getElementById('twotab').classList = 'tab__feature'
+    },
+    activetab2 () {
+      // this.activetab = !this.activetab
+      document.getElementById('onetab').classList = 'tab__feature'
+      document.getElementById('twotab').classList = 'tab-click tab__feature'
+    }
   }
 }
 </script>
